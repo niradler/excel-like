@@ -1,0 +1,29 @@
+{
+  "name": "sheet-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "Nir Adler",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "nodemon": "^1.14.11"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:8080/"
+  }
+}
