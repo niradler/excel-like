@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const host_url = "http://localhost:8080";
+const host_url = "https://excel-like.herokuapp.com";
 
 const _send = (method, route, data) => {
     const opts = {
